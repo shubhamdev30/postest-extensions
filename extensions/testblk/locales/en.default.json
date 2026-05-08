@@ -1,5 +1,5 @@
 {
-  "name": "Pos block",
+  "name": "testblk",
   "welcome": "Welcome to the {{flavor}} action extension",
   "block_heading": "Hello World",
   "block_content": "This is a block extension",
