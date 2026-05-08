@@ -4,8 +4,8 @@ api_version = "2026-01"
 type = "ui_extension"
 # Change the merchant-facing name of the extension in locales/en.default.json
 name = "t:name"
-uid = "9823a986-807a-8eb9-ae0e-a8cdf9998730fafd9422"
-handle = "pos-post-purchase-signature"
+uid = "a0a6f108-465b-a7bb-a503-81f2febf1a403793616f"
+handle = "pos-block"
 description = "A preact POS UI extension"
 
 # module: path to the file that contains your extension’s source code
@@ -16,5 +16,4 @@ target = "pos.product-details.action.render"
 
 [[extensions.targeting]]
 module = "./src/Block.jsx"
-target = "pos.purchase.post.block.render"
-
+target = "pos.product-details.block.render"

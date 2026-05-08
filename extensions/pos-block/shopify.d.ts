@@ -8,6 +8,6 @@ declare module './src/Action.jsx' {
 
 //@ts-ignore
 declare module './src/Block.jsx' {
-  const shopify: import('@shopify/ui-extensions/pos.purchase.post.block.render').Api;
+  const shopify: import('@shopify/ui-extensions/pos.product-details.block.render').Api;
   const globalThis: { shopify: typeof shopify };
 }
